@@ -12,6 +12,7 @@ class Msite extends React.Component {
     return (
       <div>
         <h2>Msite 组件</h2>
+        <p>params路由参数： {this.props.match.params.id}</p>
       </div>
     );
   }
